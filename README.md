@@ -1,6 +1,5 @@
 # Raspberry Pi 1, 2 and 3 installation from a Linux system (In this case, Arch Linux)
-#####Setup a Raspberry Pi 1, 2 and 3 (model B+) with Arch Linux, from scratch
-#####I use this as a memento any time I need to setup a new Raspberry Pi, or re-setup one that crashed "*_*"
+##### Setup a Raspberry Pi 1, 2 and 3 (model B+) with Arch Linux, from scratch
 
 ## 1) Micro SD Card Partition Table and File System Creation
 Open a terminal and _type_ **'def -h'** to identify your micro SD card. 
@@ -87,7 +86,7 @@ Replace sdX in the following instructions with the device name for the micro SD 
 
 ## ------------------------------- THE FOLLOWING HAS TO BE REVIEWED -----------------------------------
 
-7) Reboot and login with "username"
+Reboot and login with "username"
 	if in tty, startxfce4
 	edit /boot/config.txt according to current display
 	# Uncomment to force a specific HDMI mode (this will force VGA)
@@ -98,7 +97,7 @@ Replace sdX in the following instructions with the device name for the micro SD 
 	# DMT (computer monitor) modes
 	hdmi_drive=1
 
- #   override the behaviour in config.txt if you understand the risks:
+ # override the behaviour in config.txt if you understand the risks:
 	# Removes the warning overlay.
 	avoid_warnings=1
 
